@@ -1,4 +1,8 @@
 # SimLLC
+## Version: Checkpoint 1
+* Can open a user-specified trace file
+* Ability to accept a runtime flag or command to determine silent or normal running mode
+* ability to read a trace file and parse it into command and (hexadecimal) address (displaying each in debug mode)
 ## Folder Structure
     ├── src                     # Source Code Directory
     |    ├── Makefile           # A build system for SimLLC
