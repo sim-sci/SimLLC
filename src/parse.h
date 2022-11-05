@@ -6,8 +6,7 @@
  *       Nisanath Kangwanchaivanich
  *       Ibrahim Binmahfood
  *
- * parse.h: Definition to read a trace file and parse out hex address 
- * values to stdout. 
+ * parse.h: Header file for parse.c
  *
  */
 
@@ -18,6 +17,14 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <inttypes.h>
+
+// Limits from taking in data from file
+#define MAX_LINES 100
+#define MAX_LEN 100
+
+// Global for main.c to use
+char data [MAX_LINES][MAX_LEN];
+int ln;
 
 // Parse a trace file by given name
 int parse_file(char *file_name);
