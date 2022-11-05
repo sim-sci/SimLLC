@@ -1,10 +1,10 @@
 CC=gcc
 CFLAGS=-Wall -std=c99
 
-all: simllc ## Compile Everything
-
 help: ## Help
 	@sed -ne '/@sed/!s/## //p' $(MAKEFILE_LIST)	
+
+all: simllc ## Compile Everything
 
 simllc: main.c parse.o ## Compile main program
 	@echo "Compiling... main.c"
