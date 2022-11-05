@@ -4,7 +4,7 @@
     |    ├── Makefile           # A build system for SimLLC
     |    ├── main.c             # The main file where everything is called
     |    ├── parse.h            # The header file for parse.c
-    |    ├── parse.c            # The implementation src file for parse.h, where parsing the file given and storing the data
+    |    ├── parse.c            # The implementation src file for parse.h, where parsing the file given and storing of data
     |    ├── trace_file.txt     # The file containing the n commands and addresses
     ├── LICENSE                 
     └── README.md 
