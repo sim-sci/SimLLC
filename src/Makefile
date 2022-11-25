@@ -1,5 +1,5 @@
 CC=gcc
-CFLAGS=-Wall -std=c99
+CFLAGS=-g -Wall -std=c99
 
 help: ## Help
 	@sed -ne '/@sed/!s/## //p' $(MAKEFILE_LIST)	
